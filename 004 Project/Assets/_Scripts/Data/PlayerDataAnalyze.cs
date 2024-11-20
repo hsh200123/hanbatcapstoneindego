@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PlayerDataAnalyze : MonoBehaviour
 {
-    public string playerType;
-    public float parryRatio;
-    public float dashRatio;
-    public float runRatio;
+    public static string playerType;
+    public static float parryRatio;
+    public static float dashRatio;
+    public static float runRatio;
     public bool changePlayerType;
     private string currentPlayerType;
 

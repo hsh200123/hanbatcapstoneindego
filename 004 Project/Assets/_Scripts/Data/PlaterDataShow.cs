@@ -19,10 +19,10 @@ public class PlaterDataShow : MonoBehaviour
     {
         GUIStyle myStyle = new GUIStyle(GUI.skin.label);
         myStyle.fontSize = 50;
-        GUI.Label(new Rect(200,130,Screen.width*0.5f,Screen.height*0.25f),"PlayerType : " + GameManager.PlayerManager.DataAnalyze.playerType,myStyle);
+        GUI.Label(new Rect(200,130,Screen.width*0.5f,Screen.height*0.25f),"PlayerType : " + PlayerDataAnalyze.playerType,myStyle);
         myStyle.fontSize = 30;
-        GUI.Label(new Rect(200,180,Screen.width*0.5f,Screen.height*0.25f),"parryratio : " + GameManager.PlayerManager.DataAnalyze.parryRatio.ToString("F2"),myStyle);
-        GUI.Label(new Rect(200,210,Screen.width*0.5f,Screen.height*0.25f),"runratio : " + GameManager.PlayerManager.DataAnalyze.runRatio.ToString("F2"),myStyle);
-        GUI.Label(new Rect(200,240,Screen.width*0.5f,Screen.height*0.25f),"dashratio : " + GameManager.PlayerManager.DataAnalyze.dashRatio.ToString("F2"),myStyle);
+        GUI.Label(new Rect(200,180,Screen.width*0.5f,Screen.height*0.25f),"parryratio : " + PlayerDataAnalyze.parryRatio.ToString("F2"),myStyle);
+        GUI.Label(new Rect(200,210,Screen.width*0.5f,Screen.height*0.25f),"runratio : " + PlayerDataAnalyze.runRatio.ToString("F2"),myStyle);
+        GUI.Label(new Rect(200,240,Screen.width*0.5f,Screen.height*0.25f),"dashratio : " + PlayerDataAnalyze.dashRatio.ToString("F2"),myStyle);
     }
 }
